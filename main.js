@@ -19,7 +19,7 @@ recognition.onresult = function(event)
 
     var content = event.results[0][0].transcript;
 
-    document.getElementById("status").innerHTML = "The Speach as been recognzid as " + content;
+    document.getElementById("status").innerHTML = "The Speach as been recognzid as " +  content;
     if (content == "circle") 
     {
         x = Math.floor(Math.random() * 900);
